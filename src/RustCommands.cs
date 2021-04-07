@@ -19,6 +19,7 @@ namespace Oxide.Game.Rust
         /// <param name="player"></param>
         /// <param name="command"></param>
         /// <param name="args"></param>
+        /// TODO: Add Grant AUTO fallback for black / seg
         [HookMethod("GrantCommand")]
         private void GrantCommand(IPlayer player, string command, string[] args)
         {
