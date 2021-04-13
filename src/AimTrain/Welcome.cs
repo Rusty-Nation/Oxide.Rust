@@ -108,10 +108,10 @@ namespace Oxide.Plugins
         {
             lang.RegisterMessages(new Dictionary<string, string>
             {
-                ["WelcomeMessage"] = "Welcome to uMod\r\nThere're currently {0} players online",
-                ["JoinMessage"] = "Player {0} has joined the server from {1}",
-                ["JoinMessageUnknown"] = "Player {0} has joined the server",
-                ["LeaveMessage"] = "Player {0} has left the server. Reason {1}"
+                ["WelcomeMessage"] = "Aimtrain welcome",
+                ["JoinMessage"] = "Aimtrain Join",
+                ["JoinMessageUnknown"] = "unknown.. fuck",
+                ["LeaveMessage"] = "fuck you for leaving aimtrain"
             }, this);
         }
         #endregion
